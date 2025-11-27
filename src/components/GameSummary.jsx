@@ -13,7 +13,7 @@ const GameSummary = ({ onPlayAgain, onShowLeaderboard, onAddCandidate }) => {
 
     return (
         <div className="game-summary">
-            <h2>Câștigătorul Momentului</h2>
+            <h2>Betivul caminului este:</h2>
             <div className="winner-card">
                 <img src={winner.image} alt={winner.name} />
                 <h3>{winner.name}</h3>
@@ -30,3 +30,4 @@ const GameSummary = ({ onPlayAgain, onShowLeaderboard, onAddCandidate }) => {
 };
 
 export default GameSummary;
+
