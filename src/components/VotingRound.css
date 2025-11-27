@@ -1,0 +1,51 @@
+.voting-round {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.voting-round h2 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    color: #2c3e50;
+    text-align: center;
+}
+
+.progress {
+    color: #7f8c8d;
+    margin-bottom: 2rem;
+}
+
+.cards-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.vs-badge {
+    background: #e74c3c;
+    color: white;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    z-index: 2;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 600px) {
+    .cards-container {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .vs-badge {
+        margin: 10px 0;
+    }
+}
