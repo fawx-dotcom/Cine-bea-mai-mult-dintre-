@@ -32,7 +32,7 @@ function App() {
   return (
     <div className="app-container">
       <header>
-        <h1>🍻 Cine bea mai mult?</h1>
+        <h1>🍻 Cine bea mai mult dintre?</h1>
       </header>
       <main>
         {renderView()}
